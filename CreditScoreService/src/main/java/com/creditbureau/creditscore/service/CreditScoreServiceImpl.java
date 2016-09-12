@@ -32,10 +32,4 @@ public class CreditScoreServiceImpl implements CreditScoreService {
 
 	}
 
-	public static void main(String[] args) {
-
-		System.out.println("Credit Score = " + new CreditScoreServiceImpl().getCreditScoreBySSN("789123456"));
-
-	}
-
 }
